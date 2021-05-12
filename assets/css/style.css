@@ -165,15 +165,11 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
-}
-
-/* Start style what-we-do section */
-.intro {
+    padding-bottom: 20px;
     text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 /* apply style to <p> in <what-we-do> section */
@@ -183,6 +179,7 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* apply color to <h2> border in what-we-do section */
@@ -194,7 +191,6 @@ section {
 
 /* START STYLE WHAT-YOU-DO SECTION */
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -234,7 +230,7 @@ section {
 
 /* apply style to trainers section */
 .trainers {
-    text-align: center;
+    
 }
 
 .trainer {
@@ -283,7 +279,6 @@ section {
 /* apply style to contact info */
 .contact {
     background: #024e76;
-    text-align: center;
 }
 
 .contact h2 {
@@ -318,4 +313,8 @@ section {
 
 .contact-info a {
     color: #fce138;
+}
+
+.flex-row {
+    display: flex;
 }
